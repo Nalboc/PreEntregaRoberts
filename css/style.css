@@ -259,4 +259,27 @@ footer section {
   color: #041026;
 }
 
+/*Pagina Sobre-mi*/
+.main-sobremi {
+  display: flex;
+  justify-content: center;
+}
+.main-sobremi section {
+  width: 31.25rem;
+  height: 37.5rem;
+}
+.main-sobremi section article {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-sobremi section article img {
+  height: 60%;
+  width: 60%;
+  justify-self: start;
+}
+
 /*# sourceMappingURL=style.css.map */
