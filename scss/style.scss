@@ -13,7 +13,7 @@ body{
     background: linear-gradient(to top, #041026, #FE9A04);
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     gap: 150px;
     
@@ -25,7 +25,7 @@ header{
     align-items: center;
     gap: 1.875rem;
     div{
-        width: 100vw;
+        width: 100%;
         height: 50px;
         box-shadow: black 0px 0px 10px 0px;
         display: flex;
@@ -83,7 +83,7 @@ main{
 footer{
     text-align: center;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     color: white;
     section{
         font-size: 20px;
@@ -105,6 +105,8 @@ footer{
         justify-content: center;
         background-color: #041026;
         border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+      }
+      section{
         div{
           display: flex;
           flex-direction: column;
