@@ -299,3 +299,48 @@ footer{
     }
   } 
 }
+/*Pagina Contacto*/
+.main-contacto{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,30rem);
+  section{
+    display: block;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    align-content: center;
+  }
+  .redes{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 300px;
+    height: 12.5rem;
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  div{
+    background-color: #FE9A04;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+    div{
+      flex-direction: row;
+      gap: 10px;
+    }
+  } 
+  .p{
+    font-size: 16px;
+  }
+  }
+  .info{
+    background-color: #041026;
+    height: 70%;
+    border-radius: 50px 0px 0px 50px;
+    align-self: center;
+  }
+}
