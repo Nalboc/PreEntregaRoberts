@@ -261,3 +261,19 @@ footer{
     }
   }
 }
+/*Pagina de Novedades*/
+.main-novedades{
+  height: 2000px;
+  section{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 850px;
+    div{
+      height: .625rem;
+    }
+    h1, h2{
+      color: #041026;
+    }
+  }
+}

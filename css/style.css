@@ -242,4 +242,21 @@ footer section {
   grid-row: 2/4;
 }
 
+/*Pagina de Novedades*/
+.main-novedades {
+  height: 2000px;
+}
+.main-novedades section {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 100px 850px;
+}
+.main-novedades section div {
+  height: 0.625rem;
+}
+.main-novedades section h1, .main-novedades section h2 {
+  color: #041026;
+}
+
 /*# sourceMappingURL=style.css.map */
